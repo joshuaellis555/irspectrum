@@ -1,0 +1,120 @@
+.title {
+	margin: 2rem 2rem 0 1rem;
+	display: inline-block;
+}
+
+.navigationBar {
+	margin: 0 1rem 0 1rem;
+}
+
+.hidden {
+	display: none;
+}
+
+.resize {
+	width: 40rem;
+	height: auto;
+}
+
+.smaller-resize {
+	width: 250px;
+	height: auto;
+}
+
+#findButton {
+	margin: 1rem;
+}
+
+#selectFile {
+	margin: 0 1rem 0 0;
+}
+
+.graphbuttons {
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.name {
+	width: 20px;
+}
+
+#winnerButtonContainer {
+	margin: 1rem 1rem 1rem 4rem;
+}
+
+.messages {
+	margin: 3rem 0 0 5rem;
+}
+
+#logo {
+	height: auto;
+	width: 75px;
+	margin: 0 0 1rem 1rem;
+}
+
+.navbar-default {
+	background-color: #eeffff;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	color: #495057;
+	background-color: #fff;
+	border-color: #ddd #ddd #fff;
+}
+
+body ul li a {
+	color: #000000;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #444444 !important;
+	border-color: #000000 !important;
+}
+
+a:hover {
+	color: #222222;
+}
+
+#header {
+	background-color: #eeffff;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.floatleft {
+	float: left;
+	margin: 1rem 2rem 2rem 1rem;
+	width: 10rem;
+}
+
+#buttonholder {
+	display: inline-block;
+	width: 50%;
+}
+
+.card {
+	display: inline-table;
+}
+
+.aboutus {
+	width: 80%;
+	margin: 1rem 5rem 2rem 1rem;
+}
+
+.spaced {
+	margin: 0 0 1rem 1rem;
+}
+
+#bodyholder {
+	width: 100%;
+	height: 100%;
+}

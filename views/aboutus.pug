@@ -1,0 +1,22 @@
+extends main
+
+block body
+	.aboutus
+		h4 Welcome to the IR Sprectrum Recognizer!
+		p.spaced This is the work of Alex Matthews, Josh Ellis, Josh Hollingsworth, Joseph Sneddon, and Aaron Kruger for the CSC450 class at Missouri State University.
+			|  This project was made to assist Dr. Keiichi Yoshimatsu and the Chemistry Department here at MSU by automating the process of finding
+			| a match for an element's IR spectrograph.
+		h4 How to use the Website
+		ol
+			li Click the 'Select File' button on the homepage
+			li Select a pdf file of an IR Spectrum reading
+			li Click the 'Find Match' button
+			li Select from the list of elements on the left side of the screen to show the different results
+		h4 Where to find Source Code
+		p.spaced The source code for this project can be found at
+			a(href="https://github.com/amatthews4851/irspectrum") https://github.com/amatthews4851/irspectrum.
+		h4 Where can I find samples to test the site?
+		p.spaced We have included a .zip file containing all of our sample pdf's for you guys to experiment with right
+			a(href="/irsamples.zip") here.
+
+	script(src="./js/aboutus.js")

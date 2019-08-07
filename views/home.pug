@@ -1,0 +1,11 @@
+extends main
+
+block body
+	div(id='buttonholder')
+		input(type="file", id="fileInput").hidden
+		span(id="findButton").btn.btn-primary.disabled Find Match
+		span(id="selectFile").btn.btn-primary Select File
+		span(id="filename") No File Selected
+	div(id='bodyholder')
+
+	script(src="./js/home.js")
